@@ -36,7 +36,7 @@ export SOURCE_DATE_EPOCH=$(git log -1 --pretty=%ct)
 docroot=`mktemp -d`
 
 export REPO_NAME="${GITHUB_REPOSITORY##*/}"
-echo "REPO_NAME IS ${REPO_NAME}" 
+echo "REPO_NAME IS   ${REPO_NAME}" 
 ##############
 # BUILD DOCS #
 ##############
